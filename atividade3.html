@@ -1,0 +1,123 @@
+<html lang="pt-br">
+<head>
+    <meta charset=utf-8>
+    <meta name="viewpoint" content="width=deviece-width,initial-scale=1.0">
+    <title> atividade 03</title>
+</head>
+
+<body>
+    <div>
+        <h1>Guia do Programador:</h1>
+        <p>O que é programação e por que aprender programação pode ser importante.</p>
+        <h2>Áreas da programação</h2>
+    </div>
+
+    <div>
+        <ul type="square">
+            <li>Desenvolvimento Web;</li>
+            <li>Desenvolvimento de Jogos;</li>
+            <li>Aplicações Mobile;</li>
+            <li>Inteligência Artificial;</li>
+            <li>Sistemas Embarcados.</li>
+        </ul>
+    </div>
+
+    <div>
+        <h2>Etapas para aprender programação:</h2>
+        <ol type="I" start="5">
+            <li>Aprender lógica;</li>
+            <li>Conhecer uma linguagem;</li>
+            <li>Criar pequenos programas;</li>
+            <li>Estudar banco de dados;</li>
+            <li>Desenvolver projetos.</li>
+        </ol>
+    </div>
+
+    <div>
+        <h2>Conceitos importantes:</h2>
+        <dl>
+            <dt>Algoritmo:</dt>
+            <dd>Conjunto de passos utilizados para resolver um problema.</dd>
+
+            <dt>Variável:</dt>
+            <dd>Espaço utilizado para armazenar um value.</dd>
+
+            <dt>Programa:</dt>
+            <dd>Conjunto de instruções executadas pelo computador.</dd>
+
+            <dt>Banco de dados:</dt>
+            <dd>Sistema utilizado para armazenar e organizar informações.</dd>
+
+            <dt>Código-fonte:</dt>
+            <dd>Conjunto de instruções escritas pelo programador.</dd>
+        </dl>
+    </div>
+
+    <div>
+        <h2>Comandos:</h2>
+        <ul>
+            <li>git add;</li>
+            <li>git commit;</li>
+            <li>git push;</li>
+            <li>git pull;</li>
+            <li>git status.</li>
+        </ul>
+    </div>
+</body>
+
+<body>
+    <div>
+        <h2>Exemplo de código<h2>
+    </div>
+
+    <div>
+        <figure>
+            <pre>
+#include
+#include
+#include
+#include
+int main() {
+ int a, b, c;
+ char tecla;
+ srand(time(NULL));
+ while (1) {
+ system("cls");
+ printf("=== CACA-NIQUEIS ===\n");
+ printf("ESPACO = parar | Q = sair\n\n");
+ while (1) {
+ a = rand() % 5 + 1;
+ b = rand() % 5 + 1;
+ c = rand() % 5 + 1;
+ printf("\r| %d | %d | %d |", a, b, c);
+ fflush(stdout);
+ Sleep(100);
+ if (_kbhit()) {
+ tecla = _getch();
+ if (tecla == ' ')
+ break;
+ if (tecla == 'q' || tecla == 'Q')
+ return 0;
+ }
+ }
+ printf("\n\n");
+ if (a == b && b == c)
+ printf("JACKPOT!!! VOCE GANHOU!\n");
+ else
+ printf("NAO FOI DESSA VEZ!\n");
+ printf("\nPressione qualquer tecla para jogar novamente...");
+ _getch();
+ }
+ return 0;
+ }
+            </pre>
+        </figure>
+    </div>
+
+    <div>
+        <h2>Frase sobre Peogramação</h2>
+        <blockquote cite="Ada Love Lace">
+            programar é trasformar uma ideia em intruções que um computador consegue executar
+        </blockquote>
+    </div>
+</body>
