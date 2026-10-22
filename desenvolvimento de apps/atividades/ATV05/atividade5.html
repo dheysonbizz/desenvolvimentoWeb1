@@ -1,0 +1,68 @@
+<html lang="pt-br">
+<head>
+    <meta charset=utf-8>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> atividade 05</title>
+</head>
+<body>
+	<header>
+		<h1>Portal Multimídia de Tecnologia.</h1>
+		<p>explore o universo da programação e inovação.</p>
+		<nav>
+			<p><a href="#galeria" >galeria</a> | <a href="#podcast" >podcast</a> | <a href="#Video" >videos</a> | <a href="#" >componentes</a> | <a href="#" >biblioteca</a> | <a href="#" >matematica</a></p>
+		</nav>
+	</header>
+	<hr />
+	<section>
+		<h2 id="galeria">galeria de Tecnologia</h2>
+			<figure>
+				<img src ="computador.jpg" alt ="computador" height="25%" width="20%" >
+				<figcaption>estação de desenvolvimento.</figcaption>
+			</figure>
+			<figure>
+				<img src ="robotica.jpg" alt ="robotica" height="25%" width="30%" >
+				<figcaption>robotica e automação.</figcaption>
+			</figure>
+		<h3>imagem responsiva</h3>
+		<picture>
+			<source srcset="laboratorio.jpg" media="(min-width: 721px)" height="30%" width="26%" />
+			
+			<source srcset="laboratoriomobile.jpg" media="(max-width: 720px)" height="32%" width="20%" />
+			
+			<img src="laboratorio.jpg" alt="laboratorio de informatica" height="30%" width="25%" />
+		</picture>
+	</section>
+	<hr />
+	
+	
+	<section>
+		<h2 id="podcast">podcast de tecnologia</h2>
+		<h3>o futuro da programação</h3>
+		<p>nesse ep discutimos linguagem de programação, ia e carreira</p>
+		<audio controls>
+			<source src="DevNaEstrada.mp3" type="audio/mpeg">
+			<p>seu navegador nao suporta reprodução de audio </p>
+		</audio>
+	</section>
+	<hr />
+	
+	
+	<section>
+		<h2 id="Video">Aula em vídeo</h2>
+		<h3>introdução a programação</h3>
+		<video poster="capa-video.jpg" width="30%"controls>
+			<source src="aula.mp4" type="video/mp4">
+			<track src="legenda.vtt" kind="subtitle" srclang="pt-BR" label="Português" default>
+		</video>
+		<p>assista à aula e acompanhe as legendads disponíveis no reprodutor.</p>
+	</section>
+	<hr />
+	<section>
+		<h2> Mapa interativo de componentes</h2>
+		<p>clique na área correspondente para conhecer diferentes componetes de um computador.</p>
+		<map>
+			<area src="mapa-componentes.jpg">
+		</map>
+	</section>
+</body>
+</html>
