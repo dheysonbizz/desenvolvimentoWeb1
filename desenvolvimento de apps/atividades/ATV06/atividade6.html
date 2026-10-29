@@ -83,8 +83,70 @@
 					<legend>Identificação do equipamento</legend>
 					<label>Nome do equipamento:</label>
 					<input type="text" placeholder="Digite o nome" />
+					<br />
+					<br />
+					<label>Código de patrimônio:</label>
+					<input type="text" placeholder="Ex:EQ006">
+					<br />
+					<br />
+					<label>Data de aquisição:</label>
+					<input type="date">
+					<br />
+					<br />
+					<label>Categoria:</label>
+					<select>
+						<option select>Selecione uma Categoria</option>
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+					</select>
+					<br/>
+					<br/>
 				</fieldset>
+				<fieldset>
+					<legend>Responsável e condições</legend>
+					<label>E-mail do responsável:</label>
+					<input type="email" placeholder="Nome@empresa.com" />
+					<br />
+					<br />
+					<label>Quantidade:</label>
+					<input type="number" />
+					<br />
+					<br />
+					<label>Valor unitário (R$):</label>
+					<input type="number" placeholder="0.00" step="0.01" />
+					<br />
+					<br />
+					<label>Descrição e observações:</label>
+					<br />
+					<textarea>
+					 Informe detalhes do equipamento...
+					</textarea>
+				</fieldset>
+				<br />
+				<button>Cadastrar equipamento</button><button>Limpar formulário</button>
 			</form>
 		</section>
+		<hr />
+		<section>
+			<h2>3. Painel de indicadores</h2>
+			<h3>Valor de referência</h3>
+			<p>Valor unitário de referência de um notebook cadastrado no inventário:</p>
+			<p>R$ 3.000,00</p>
+			<h3>Ocupação do armazenamento</h3>
+			<p>Espaço utilizado: 680 GB de uma capacidade total de 1.000 GB.</p>
+			<meter max="100" value="68">68%</meter>
+			<p>68% do armazenamento utilizado.</p>
+			<h3>Manutenção preventiva</h3>
+			<p>Andamento da manutenção dos equipamentos do laboratório de informática:</p>
+			<progress max="100" value="70">70%</progress>
+			<p>70% concluído — 30% restante</p>
+		</section>
+		<hr />
+		<footer>
+			<p>Portal de Gestão de Hardware — Departamento de TI</p>
+			<p>Dados fictícios para fins educacionais.</p>
+		</footer>
 	</body>
 </html>
