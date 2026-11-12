@@ -1,0 +1,7 @@
+Starting the 'Apache24' service
+The 'Apache24' service is running.
+mpm_winnt:notice] [pid 17452:tid 444] AH00455: Apache/2.4.70 (Win64) configured -- resuming normal operations
+[Wed Nov 11 19:38:04.588701 2026] [mpm_winnt:notice] [pid 17452:tid 444] AH00456: Apache Lounge VS18 Server built: Nov  5 2026 09:10:53
+[Wed Nov 11 19:38:04.588701 2026] [core:notice] [pid 17452:tid 444] AH00094: Command line: 'c:\\WebServer\\Apache24\\bin\\httpd.exe -d C:/WebServer/Apache24'
+[Wed Nov 11 19:38:04.593699 2026] [mpm_winnt:notice] [pid 17452:tid 444] AH00418: Parent: Created child process 2084
+[Wed Nov 11 19:38:04.782700 2026] [mpm_winnt:notice] [pid 2084:tid 444] AH00354: Child: Starting 64 worker threads.
