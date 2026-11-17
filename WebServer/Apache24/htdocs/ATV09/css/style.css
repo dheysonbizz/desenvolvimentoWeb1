@@ -1,0 +1,270 @@
+/*
+cnfig gerais
+*/
+{
+    box-sizing: border-box
+}
+
+body
+{
+    margin: 0;
+    background-color: #FFFAF2;
+    color: 241044;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+ h1, h2, h3, p
+{
+    margin-top: 0;
+}
+
+ h2
+ {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 1,15;
+ }
+
+ h2 span
+ {
+    color: #f04e98;
+    font-style: italic;
+ }
+
+ a
+ {
+    font-weight: bold;
+    text-decoration: none;
+ }
+
+#topo
+{
+    padding: 75px 20px;
+    text-align: center;
+    color: white;
+    background-color: #32105f;
+    background-image: url(../img/topo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+}
+/*
+cabec
+*/
+#topo  h1
+{
+    margin: 12 px 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+#topo h1 span
+{
+    color: #FFCC33;
+}
+
+.selo
+{
+    font-size: 13px;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+
+.chamada
+{
+    font-family: geogia, serif;
+    font-size: 22px;
+    font-style: italic;
+}
+
+.data
+{
+    margin: 25px;
+    color: #FFCC33;
+    font-weight: bold;
+}
+
+.botao
+{
+    display: inline;
+    padding: 12px 25px;
+    border-radius: 30;
+    font-weight: 900;
+}
+/*
+sec gerais
+*/
+
+.secao
+{
+    padding: 65px 9%;
+}
+
+.secao h2
+{
+    margin-bottom: 20px;
+}
+
+.etiqueta
+{
+    color: #f04e98;
+    font-size: 13px;
+    font-weight: 900;
+    initial-letter: 3px;
+}
+
+.introcao
+{
+    margin-bottom: 30px;
+}
+/*
+sob o festival
+*/
+
+.sobre
+{
+    background-color: #fff1d6;
+}
+
+.sobre
+{
+    max-width: 750px;
+}
+
+blockquote
+{
+    margin: 30 0 0;
+    padding: 18px 25px;
+    border-left: 6px solid #f04e98;
+    background-color: white;
+    color: #6c3483;
+    font-family: georgia, serif;
+    font-size: 21px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/*
+atracoes
+*/
+
+.atracoes
+{
+    background-color: #f5eaff;
+}
+
+.cartao
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 47%;
+    min-height: 230px;
+    margin: 1%;
+    padding: 25px;
+    border-radius: 14px;
+    color: white;
+}
+
+.cartao h3
+{
+    margin-bottom: 5px;
+    font-family: georgia, serif;
+    font-size: 29px;
+}
+
+.cartao p 
+{
+    margin-bottom: 8px;
+}
+
+.horario
+{
+    font-size: 13px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.genero
+{
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.cartao-roxo{background-color: #6336a5;}
+.cartao-rosa{background-color: #d93683;}
+.cartao-laranja{background-color: #e76b32;}
+.cartao-verde{background-color: #23866b;}
+
+/*
+programacao
+*/
+
+.programacao{background-color: #ffffff;}
+
+table
+{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: fffaf2;
+}
+
+th
+{
+    padding: 15px;
+    background-color: #32105f;
+    color: white;
+    font-size: 14px;
+    text-align: left;
+}
+
+td{
+    padding: 14px 15px;
+    border-bottom: 1px solid #e5d9ed;
+}
+
+tbody tr:nth-child(even)
+{
+    background-color: #f5eaff;
+}
+
+.linha-destaque
+{
+    color:  #b51c69;
+    font-weight: 900;
+}
+/*
+expr
+*/
+
+.experiencia
+{
+    background-color: e4f7ef;
+}
+
+.experiencia
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin: 1%;
+    padding: 15%;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.experiencia img
+{
+    width: 100%;
+    height: 150%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.experiencia h3
+{}
